@@ -7,6 +7,6 @@ public class SampleCode
 	@Test
 	public void display2()
 	{
-		System.out.println("I am Sample Code");
+		System.out.println("I am Sample Co000de");
 	}
 }
