@@ -2,9 +2,10 @@
 
 <html>
   <head>
-  <title>TestNG new reports</title>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -48,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\POCMaven\Java\testng.xml</span>
+                    <span>C:\Users\mallikar\git\JavaTestNG\Java\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -124,21 +125,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.SampleCode</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="display2">
-                  </a> <!-- display2 -->
-                  <span class="method-name">display2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">tests.CommandPrompt</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -151,17 +137,32 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SampleCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="display2">
+                  </a> <!-- display2 -->
+                  <span class="method-name">display2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\POCMaven\Java\testng.xml</span>
+            <span class="header-content">C:\Users\mallikar\git\JavaTestNG\Java\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; preserve-order=&quot;true&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.SampleCode&quot;/&gt;
       &lt;class name=&quot;tests.CommandPrompt&quot;/&gt;
@@ -208,16 +209,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'display2')
 data.setCell(0, 2, 'tests.SampleCode')
-data.setCell(0, 3, 12);
+data.setCell(0, 3, 19);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'display')
 data.setCell(1, 2, 'tests.CommandPrompt')
-data.setCell(1, 3, 2);
+data.setCell(1, 3, 4);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 ms</span>
+              <span class="suite-total-time">Total running time: 23 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -253,7 +254,7 @@ return data;
               <div class="chronological-class-name">tests.CommandPrompt</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">display</span>
-                <span class="method-start">15 ms</span>
+                <span class="method-start">25 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
